@@ -17,7 +17,10 @@ Different build options can be found here: :doc:`../software/control/TMPC`. See 
     * This driver is only required if you want to run the HiL setup
     * It requires a license which you can obtain directly from Speedgoat
 #. Install OSQP (https://github.com/osqp/osqp)
-    * Clone the repository and initialize submodules if prompted.
+    * Clone the repository 'git clone ...'
+    * Checkout the release-0.6.3 branch 'git checkout release-0.6.3'
+    * Initialize submodules 'git submodule init'
+    * Update submodules 'git submodule update'
     * Check if cmake is installed via typing `cmake` into a shell (e.g. classical commandline or powershell)
     * Check if gcc is installed in the correct version (tested against tdm64-gcc-5.1.0-2.exe for Windows) via typing `gcc -v` into a shell. Can be downloaded `here <https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/>`_.
     * In oder to for the following commands to work, navigate to the OSQP repository first and use PowerShell or cmd for the following commands. 
